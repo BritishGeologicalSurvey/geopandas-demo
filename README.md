@@ -5,8 +5,9 @@ GIS-like functionality of the GeoPandas Python library.  It uses data from the
 British Geological Survey's [earthquake catalogue](http://earthquakes.bgs.ac.uk/earthquakes/dataSearch.html) and the public domain [Natural Earth](http://www.naturalearthdata.com) project to calculate the towns in the UK that feel the most earthquakes.
 
 Follow the instructions below to install and run the demonstration on your own
-machine.  Alternatively, you can view the code and results by browsing to the
-[GeoPandas_demo.ipynb](GeoPandas_demo.ipynb) file.
+machine.  Alternatively, you can [view the code and
+results](https://nbviewer.jupyter.org/github/BritishGeologicalSurvey/geopandas-demo/blob/master/GeoPandas_demo.ipynb)
+as rendered by the Jupyter nbviewer page.
 
 
 ## Prerequisites

@@ -6,8 +6,7 @@ British Geological Survey's [earthquake catalogue](http://earthquakes.bgs.ac.uk/
 
 Follow the instructions below to install and run the demonstration on your own
 machine.  Alternatively, you can [view the code and
-results](https://nbviewer.jupyter.org/github/BritishGeologicalSurvey/geopandas-demo/blob/master/GeoPandas_demo.ipynb)
-as rendered by the Jupyter nbviewer page.
+results](GeoPandas_demo.ipynb) in your browser.  Click [here](https://nbviewer.jupyter.org/github/BritishGeologicalSurvey/geopandas-demo/blob/master/GeoPandas_demo.ipynb) for mobile-friendly version rendere by _Jupyter nbviewer_.
 
 
 ## Prerequisites

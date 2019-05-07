@@ -4,6 +4,7 @@ python:
     - 3.6-dev
 
 before_install:
+    - sudo apt update -y
     - sudo apt -y install spatialindex libspatialindex-dev
 
 install:

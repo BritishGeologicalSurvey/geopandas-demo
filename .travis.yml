@@ -4,7 +4,7 @@ python:
     - 3.6
 
 install:
-    - sudo apt -y install spatialindex 
+    - sudo apt -y install libspatialindex-dev
     - pip install --upgrade setuptools pip pytest
     - pip install nbconvert jupyter_client geopandas rtree descartes
 

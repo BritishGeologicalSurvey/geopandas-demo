@@ -5,7 +5,7 @@ python:
 
 install:
     - pip install --upgrade setuptools pip pytest
-    - pip install nbconvert geopandas rtree
+    - pip install nbconvert jupyter_client geopandas rtree
 
 script:
     - jupyter nbconvert --to notebook --execute GeoPandas_demo.ipynb

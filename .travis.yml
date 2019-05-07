@@ -5,7 +5,7 @@ python:
 
 before_install:
     - sudo apt update -y
-    - sudo apt -y install spatialindex libspatialindex-dev
+    - sudo apt -y install libspatialindex-dev
 
 install:
     - pip install --upgrade setuptools pip pytest

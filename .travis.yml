@@ -4,8 +4,9 @@ python:
     - 3.6
 
 install:
+    - apt install spatialindex
     - pip install --upgrade setuptools pip pytest
-    - pip install nbconvert jupyter_client geopandas rtree
+    - pip install nbconvert jupyter_client geopandas rtree descartes
 
 script:
     - jupyter nbconvert --to notebook --execute GeoPandas_demo.ipynb

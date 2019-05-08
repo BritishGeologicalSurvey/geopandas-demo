@@ -1,0 +1,16 @@
+language: python
+
+python:
+    - 3.6-dev
+
+before_install:
+    - sudo apt update -y
+    - sudo apt -y install libspatialindex-dev
+
+install:
+    - pip install --upgrade setuptools pip pytest
+    - pip install jupyter nbconvert nbval jupyter_client geopandas rtree descartes
+
+script:
+    - jupyter nbconvert --to notebook --execute GeoPandas_demo.ipynb
+    - py.test --nbval GeoPandas_demo.nbconvert.ipynb

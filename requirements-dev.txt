@@ -1,0 +1,5 @@
+pytest
+nbconvert
+nbval
+jupyter_client
+descartes

@@ -1,0 +1,4 @@
+jupyter
+geopandas
+rtree
+pyproj>2

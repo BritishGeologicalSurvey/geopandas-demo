@@ -21,33 +21,26 @@ results](GeoPandas_demo.ipynb) in your browser.  Click [here](https://nbviewer.j
 
 ## Installing dependencies
 
-#### Via package manager
 
 The following packages should be installed via `pip3` or `conda`:
 
 ```
-pip3 install geopandas jupyter rtree
+pip3 install -r requirements.txt
 ```
 
-#### Via Pipenv
+### For developers
 
-Alternatively, dependencies can be install via Pipenv.
+To test that the notebook runs to completion, extra packages are required:
 
-[_Pipenv_](https://docs.pipenv.org) is a package and virtual environment
-manager for Python.  Virtual environments allow you to install Python packages
-without interfering with your system installation or other projects.
-
-Pipenv reads the dependency information from the `Pipfile`.  A virtual
-environment with the dependencies installed can be created and started as
-follows:
-
-```
-pipenv create
-pipenv install
-pipenv shell
+```bash
+pip3 install -r requirements-dev.txt
 ```
 
-The shell session can be ended with `exit`.
+Run the test with:
+
+```bash
+pytest --nbval-lax GeoPandas_demo.ipynb
+```
 
 
 ## Starting the notebook
